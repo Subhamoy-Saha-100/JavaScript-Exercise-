@@ -1,4 +1,4 @@
-body{
+/* body{
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -12,7 +12,7 @@ body{
    
 } */
 
-#button{
+/* #button{
     border: 2px solid beige;
     border-radius: 5px;
     height: 50px;
@@ -21,4 +21,44 @@ body{
     background-color: beige;
     font-size: larger;
     cursor: pointer;
-}
+} */ 
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .navbar{
+    border: 2px solid rgb(224, 224, 112);
+    display: flex;
+    justify-content: flex-end;
+    gap: 144px;
+    padding: 30px;
+    background-color: rgb(224, 224, 112);
+
+ }
+ .navbar a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+ }
+ .name{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+ }
+ .name-img{
+    height: 288px;
+    width: 288px;
+    border: 2px solid black;
+
+    margin: auto;
+ }
+ .name-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }
