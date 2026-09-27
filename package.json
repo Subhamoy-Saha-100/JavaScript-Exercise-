@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/Subhamoy-Saha-100/JavaScript-Exercise-/issues"
   },
-  "homepage": "https://github.com/Subhamoy-Saha-100/JavaScript-Exercise-#readme"
+  "homepage": "https://github.com/Subhamoy-Saha-100/JavaScript-Exercise-#readme",
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.2",
+    "path": "^0.12.7"
+  }
 }
